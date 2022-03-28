@@ -58,3 +58,4 @@ print(arr)
 a = {a : a ** 2 for a in range (10)}
 a.pop(0)
 print(a)
+
