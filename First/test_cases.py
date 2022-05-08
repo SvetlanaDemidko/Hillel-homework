@@ -16,7 +16,6 @@ driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub', optio
 #docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shn selenium/standalone-chrome-debug
 
 
-
 url_variable = 'Shampoo'
 url=['https://makeup.com.ua/']
 driver.get(url[0])
